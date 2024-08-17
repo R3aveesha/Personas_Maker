@@ -6,7 +6,8 @@
 }
 
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Arial', sans-serif;                                       
+
   background-color: #c1de6c;
   padding: 20px;
 }
@@ -34,8 +35,9 @@ body {
 }
 
 .about-section {
-  display: flex;
-  margin-top: 20px;
+ display: flex;
+  margin-top: 20px; 
+  
 }
 
 .profile-pic img {
@@ -93,3 +95,11 @@ body {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+
+
+
+
+
