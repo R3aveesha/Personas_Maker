@@ -1,0 +1,95 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #c1de6c;
+  padding: 20px;
+}
+
+.resume-container {
+  background-color: #fff;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+  font-size: 48px;
+  color: #000;
+}
+
+.header h1 span {
+  color: #ba2e2e;
+}
+
+.header p {
+  color: #555;
+}
+
+.about-section {
+  display: flex;
+  margin-top: 20px;
+}
+
+.profile-pic img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.about-text {
+  margin-left: 20px;
+}
+
+.about-text h2 {
+  font-size: 24px;
+}
+
+.about-text p {
+  margin-top: 10px;
+  color: #666;
+}
+
+.skills-section, .career-section, .education-section {
+  margin-top: 30px;
+}
+
+.skills-section h2, .career-section h2, .education-section h2 {
+  font-size: 24px;
+}
+
+.skills-section ul, .education-section ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.skills-section ul li, .education-section ul li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #666;
+}
+
+.career-section .job h3 {
+  font-size: 20px;
+}
+
+.career-section .job p {
+  color: #888;
+}
+
+.career-section .job ul {
+  list-style: disc;
+  padding-left: 20px;
+  color: #666;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
